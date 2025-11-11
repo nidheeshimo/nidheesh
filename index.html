@@ -3,37 +3,27 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NexLearn — Online Education for Everyone</title>
-  <meta name="description" content="Learn in-demand skills with flexible, instructor-led and self-paced e‑learning. Courses, tracks, certifications, and community — all in one place." />
+  <title>QUALITY EDUCATION — Education Awareness</title>
+  <meta name="description" content="An awareness initiative promoting inclusive, equitable, and quality education for all." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="awareness.css" />
 </head>
 <body>
-  <!-- Skip link for accessibility -->
   <a class="skip-link" href="#main">Skip to content</a>
-
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#">
-        <img src="assets/logo.svg" alt="NexLearn logo" class="logo" />
-        <span>NexLearn</span>
-      </a>
+      <a class="brand" href="#"><img class="logo" src="assets/logo.svg" alt="QUALITY EDUCATION logo"><span>QUALITY EDUCATION</span></a>
       <nav class="nav" aria-label="Primary">
-        <a href="#courses">Courses</a>
-        <a href="#tracks">Learning Paths</a>
-        <a href="#features">Features</a>
-        <a href="#pricing">Pricing</a>
         <a href="#about">About</a>
+        <a href="#issues">Key Issues</a>
+        <a href="#programs">Programs</a>
+        <a href="#act">Take Action</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
       </nav>
-      <div class="cta-group">
-        <a class="btn btn-ghost" href="#login">Log in</a>
-        <a class="btn" href="#signup">Get Started</a>
-      </div>
-      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </header>
 
@@ -41,151 +31,89 @@
     <section class="hero">
       <div class="container hero-inner">
         <div class="hero-copy">
-          <h1>Build skills that move your career.</h1>
-          <p>Interactive lessons, real projects, and mentor feedback — built for busy people. Learn anytime, from anywhere.</p>
-          <form class="hero-form" action="#" method="get" role="search" aria-label="Search courses">
-            <input type="search" name="q" placeholder="Search courses (e.g., Python, UI/UX, Cloud)" aria-label="Search courses">
-            <button class="btn" type="submit">Search</button>
-          </form>
+          <h1>Early Childhood education</h1>
+          <p>Together we can make learning safe, accessible, and effective for every learner. Learn the issues. Share the message. Act locally.</p>
+          <div class="cta-row">
+            <a class="btn" href="#act">Join the campaign</a>
+            <a class="btn btn-ghost" href="#about">Learn more</a>
+          </div>
           <ul class="trust-list">
-            <li>10,000+ learners</li>
-            <li>200+ expert-led courses</li>
-            <li>Industry-recognized certificates</li>
+            <li>Awareness drives in schools & communities</li>
+            <li>Volunteer-led workshops</li>
+            <li>Scholarship & helpline directory</li>
           </ul>
         </div>
         <div class="hero-media">
-          <img src="assets/hero-illustration.png" alt="Students learning online with laptops and phones">
+          <img src="assets/hero-illustration.png" alt="Students and teachers raising awareness about education">
         </div>
       </div>
     </section>
 
-    <section id="courses" class="grid-section">
+    <section id="about" class="grid-section">
       <div class="container">
         <header class="section-head">
-          <h2>Popular Courses</h2>
-          <p>Start with these favorites — bite-sized, practical, and project‑based.</p>
+          <h2>About the initiative</h2>
+          <p>We amplify the importance of education through campaigns, workshops, and partnerships—aligned with SDG 4 (Quality Education).</p>
         </header>
-        <div class="grid cards">
-          <!-- Course Card 1 -->
-          <article class="card">
-            <img src="assets/course-python.jpg" alt="Python course thumbnail">
-            <div class="card-body">
-              <h3>Python Fundamentals</h3>
-              <p>From zero to writing clean, testable Python scripts.</p>
-              <div class="meta">
-                <span>Beginner</span>
-                <span>14h</span>
-                <span>4.8 ★</span>
-              </div>
-              <a class="btn btn-small" href="#">View details</a>
-            </div>
+        <div class="grid about-grid">
+          <article class="about-card">
+            <h3>Our mission</h3>
+            <p>Enable inclusive, equitable, and quality education—especially for first‑generation learners, girls, and marginalized communities.</p>
           </article>
-          <!-- Course Card 2 -->
-          <article class="card">
-            <img src="assets/course-uiux.jpg" alt="UI/UX course thumbnail">
-            <div class="card-body">
-              <h3>UI/UX Design Sprint</h3>
-              <p>Design-thinking, wireframes, and prototyping essentials.</p>
-              <div class="meta">
-                <span>Beginner–Intermediate</span>
-                <span>12h</span>
-                <span>4.7 ★</span>
-              </div>
-              <a class="btn btn-small" href="#">View details</a>
-            </div>
+          <article class="about-card">
+            <h3>Our approach</h3>
+            <p>Evidence-driven awareness drives, community events, and practical resources for parents, students, and educators.</p>
           </article>
-          <!-- Course Card 3 -->
-          <article class="card">
-            <img src="assets/course-cloud.jpg" alt="Cloud course thumbnail">
-            <div class="card-body">
-              <h3>Cloud Practitioner</h3>
-              <p>Core cloud services, security, and cost best practices.</p>
-              <div class="meta">
-                <span>Beginner</span>
-                <span>10h</span>
-                <span>4.6 ★</span>
-              </div>
-              <a class="btn btn-small" href="#">View details</a>
-            </div>
-          </article>
-          <!-- Course Card 4 -->
-          <article class="card">
-            <img src="assets/course-datasci.jpg" alt="Data Science course thumbnail">
-            <div class="card-body">
-              <h3>Data Science Toolkit</h3>
-              <p>Pandas, visualization, and model basics with projects.</p>
-              <div class="meta">
-                <span>Intermediate</span>
-                <span>18h</span>
-                <span>4.8 ★</span>
-              </div>
-              <a class="btn btn-small" href="#">View details</a>
-            </div>
+          <article class="about-card">
+            <h3>What success looks like</h3>
+            <p>Higher school enrollment & retention, reduced dropouts, safer schools, and better career pathways.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="tracks" class="tracks">
+    <section id="issues" class="issues">
       <div class="container">
         <header class="section-head">
-          <h2>Learning Paths</h2>
-          <p>Guided roadmaps from novice to job‑ready.</p>
+          <h2>Key issues to know</h2>
+          <p>Here are core messages from our campaign material.</p>
         </header>
-        <div class="grid tracks-grid">
-          <div class="track-card">
-            <h3>Full‑Stack Developer</h3>
-            <ul>
-              <li>HTML/CSS → JavaScript → React</li>
-              <li>Node.js & APIs</li>
-              <li>Databases & Deployment</li>
-            </ul>
-            <a class="link" href="#">View syllabus →</a>
-          </div>
-          <div class="track-card">
-            <h3>Data Analyst</h3>
-            <ul>
-              <li>Excel/Sheets to SQL</li>
-              <li>Python & Visualization</li>
-              <li>Dashboards & Storytelling</li>
-            </ul>
-            <a class="link" href="#">View syllabus →</a>
-          </div>
-          <div class="track-card">
-            <h3>Cloud Engineer</h3>
-            <ul>
-              <li>Cloud fundamentals</li>
-              <li>Networking & Security</li>
-              <li>Automation & Monitoring</li>
-            </ul>
-            <a class="link" href="#">View syllabus →</a>
-          </div>
+        <div class="grid issue-grid">
+          <div class="issue"><h3>Student Centered method</h3><p>Student Centered method</p></div><div class="issue"><h3>INTERACTIVE METHOD</h3><p>INTERACTIVE METHOD</p></div><div class="issue"><h3>GENDER PARITY IN EDUCATION</h3><p>GENDER PARITY IN EDUCATION</p></div><div class="issue"><h3>Relevant skills</h3><p>Relevant skills</p></div><div class="issue"><h3>EFFECTIVE TEACHING METHODS</h3><p>EFFECTIVE TEACHING METHODS</p></div><div class="issue"><h3>Sustainable development goal - 4</h3><p>Sustainable development goal - 4</p></div><div class="issue"><h3>Learning opportunities for all</h3><p>Learning opportunities for all</p></div><div class="issue"><h3>Ensure equal opportunities and access for all children</h3><p>Ensure equal opportunities and access for all children</p></div>
         </div>
       </div>
     </section>
 
-    <section id="features" class="features">
+    <section id="programs" class="programs">
       <div class="container">
         <header class="section-head">
-          <h2>Why learn with us</h2>
-          <p>A platform built to help you actually finish.</p>
+          <h2>Programs & activities</h2>
+          <p>Awareness that turns into action.</p>
         </header>
-        <div class="grid features-grid">
-          <div class="feature">
-            <h3>Hands‑on Projects</h3>
-            <p>Every course ships with practical tasks mapped to real scenarios.</p>
+        <div class="grid prog-grid">
+          <div class="prog-card">
+            <h3>School Awareness Drive</h3>
+            <ul class="ticks">
+              <li>Morning assemblies on the Right to Education</li>
+              <li>Hygiene & safety sessions</li>
+              <li>Anti-bullying & child protection pledges</li>
+            </ul>
           </div>
-          <div class="feature">
-            <h3>Mentor Feedback</h3>
-            <p>Get code/design reviews and nudge past blockers fast.</p>
+          <div class="prog-card">
+            <h3>Parent & Community Meets</h3>
+            <ul class="ticks">
+              <li>Benefits of regular attendance</li>
+              <li>How to access scholarships & grants</li>
+              <li>Digital safety & screen-time balance</li>
+            </ul>
           </div>
-          <div class="feature">
-            <h3>Certificates</h3>
-            <p>Shareable certificates for LinkedIn and resumes.</p>
-          </div>
-          <div class="feature">
-            <h3>Flexible Pace</h3>
-            <p>Micro‑lessons designed for 20–30 minute sessions.</p>
+          <div class="prog-card">
+            <h3>Teacher Support</h3>
+            <ul class="ticks">
+              <li>Inclusive classroom strategies</li>
+              <li>Mental health first-aid basics</li>
+              <li>Referral pathways & reporting</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -194,103 +122,99 @@
     <section class="showcase">
       <div class="container showcase-inner">
         <div class="showcase-media">
-          <img src="assets/app-screens.png" alt="App interface screens">
+          <img src="assets/app-screens.png" alt="Flyers, posters, and social media assets">
         </div>
         <div class="showcase-copy">
-          <h2>Learn on any device</h2>
-          <p>Pick up where you left off — phone, tablet, or laptop.</p>
-          <ul class="ticks">
-            <li>Offline mode for commutes</li>
-            <li>Reminders to keep streaks alive</li>
-            <li>Notes & bookmarks synced</li>
-          </ul>
-          <a class="btn" href="#signup">Create free account</a>
+          <h2>Use our free posters & slides</h2>
+          <p>Download ready-to-print posters and a short presentation for your next awareness session.</p>
+          <a class="btn" href="#resources">Browse resources</a>
         </div>
       </div>
     </section>
 
-    <section id="pricing" class="pricing">
+    <section id="act" class="act">
       <div class="container">
         <header class="section-head">
-          <h2>Simple pricing</h2>
-          <p>Try free, upgrade when it helps.</p>
+          <h2>How you can help</h2>
+          <p>Change starts close to home.</p>
         </header>
-        <div class="grid price-grid">
-          <article class="price-card">
-            <h3>Free</h3>
-            <p class="price">$0</p>
-            <ul>
-              <li>10 beginner courses</li>
-              <li>Community forum</li>
-              <li>Basic certificates</li>
-            </ul>
-            <a class="btn btn-ghost" href="#">Start free</a>
-          </article>
-          <article class="price-card featured">
-            <h3>Pro</h3>
-            <p class="price">$19<span>/mo</span></p>
-            <ul>
-              <li>All courses & paths</li>
-              <li>Projects & mentor feedback</li>
-              <li>Career services</li>
-            </ul>
-            <a class="btn" href="#">Go Pro</a>
-            <p class="note">Cancel anytime</p>
-          </article>
-          <article class="price-card">
-            <h3>Teams</h3>
-            <p class="price">Custom</p>
-            <ul>
-              <li>Admin & analytics</li>
-              <li>Bulk seats</li>
-              <li>Dedicated support</li>
-            </ul>
-            <a class="btn btn-ghost" href="#">Contact sales</a>
-          </article>
+        <div class="grid act-grid">
+          <div class="act-card">
+            <h3>Volunteer</h3>
+            <p>Lead a session in a local school or community hall. We provide scripts and materials.</p>
+            <a class="btn btn-small" href="#contact">Sign up</a>
+          </div>
+          <div class="act-card">
+            <h3>Donate supplies</h3>
+            <p>Support learners with stationery, books, devices, and data packs.</p>
+            <a class="btn btn-small" href="#contact">Pledge items</a>
+          </div>
+          <div class="act-card">
+            <h3>Spread the word</h3>
+            <p>Share facts & resources on social media. Host a neighborhood teach‑in.</p>
+            <a class="btn btn-small" href="#resources">Get assets</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="testimonials">
+    <section id="resources" class="resources">
       <div class="container">
         <header class="section-head">
-          <h2>Learner stories</h2>
-          <p>People who finished, switched careers, and leveled up.</p>
+          <h2>Resources & helplines</h2>
+          <p>Scholarships, government portals, and support numbers (add your local details).</p>
         </header>
-        <div class="grid testimonials-grid">
-          <figure class="quote">
-            <blockquote>“Short lessons and real projects kept me consistent.”</blockquote>
-            <figcaption>— Priya, Junior Developer</figcaption>
-          </figure>
-          <figure class="quote">
-            <blockquote>“The mentor feedback shaved weeks off my learning.”</blockquote>
-            <figcaption>— Arjun, Data Analyst</figcaption>
-          </figure>
-          <figure class="quote">
-            <blockquote>“Certificates helped me land interviews fast.”</blockquote>
-            <figcaption>— Meera, Cloud Engineer</figcaption>
-          </figure>
+        <div class="grid res-grid">
+          <div class="res-card">
+            <h3>Scholarships</h3>
+            <ul>
+              <li>National & State scholarships</li>
+              <li>Private foundations & CSR programs</li>
+              <li>How to apply (step-by-step guide)</li>
+            </ul>
+          </div>
+          <div class="res-card">
+            <h3>Helplines</h3>
+            <ul>
+              <li>Child protection & safety</li>
+              <li>Mental health support</li>
+              <li>Women & girls support services</li>
+            </ul>
+          </div>
+          <div class="res-card">
+            <h3>Downloads</h3>
+            <ul>
+              <li>Campaign posters (PDF)</li>
+              <li>Assembly script</li>
+              <li>Awareness slide deck</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="about">
-      <div class="container about-inner">
+    <section id="contact" class="contact">
+      <div class="container contact-inner">
         <div>
-          <h2>About NexLearn</h2>
-          <p>We’re an education platform focused on outcomes. Lessons are built by working professionals and updated with industry input.</p>
-          <ul class="ticks">
-            <li>India-first schedules and cohorts</li>
-            <li>Scholarships for students</li>
-            <li>Partnered with hiring networks</li>
-          </ul>
+          <h2>Contact</h2>
+          <p>Email: <a href="mailto:team@eduaware.example">team@eduaware.example</a></p>
+          <p>Follow updates and share your events.</p>
         </div>
-        <div class="about-card">
-          <h3>Have questions?</h3>
-          <p>Email us: <a href="mailto:hello@nexlearn.example">hello@nexlearn.example</a></p>
-          <p>Or join the community forum to meet peers and mentors.</p>
-          <a class="btn btn-ghost" href="#community">Visit community</a>
-        </div>
+        <form class="contact-form" action="#" method="post">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="btn" type="submit">Send</button>
+        </form>
       </div>
     </section>
   </main>
@@ -298,36 +222,31 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="foot-col">
-        <a class="brand" href="#">
-          <img src="assets/logo.svg" alt="NexLearn logo" class="logo" />
-          <span>NexLearn</span>
-        </a>
-        <p class="foot-note">© <span id="year"></span> NexLearn. All rights reserved.</p>
+        <a class="brand" href="#"><img class="logo" src="assets/logo.svg" alt="QUALITY EDUCATION logo"><span>QUALITY EDUCATION</span></a>
+        <p class="foot-note">© <span id="year"></span> QUALITY EDUCATION. For awareness and education only.</p>
       </div>
       <div class="foot-col">
-        <h4>Product</h4>
+        <h4>Campaign</h4>
         <ul>
-          <li><a href="#courses">Courses</a></li>
-          <li><a href="#tracks">Paths</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#">Certificates</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#issues">Issues</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#act">Take Action</a></li>
         </ul>
       </div>
       <div class="foot-col">
-        <h4>Company</h4>
+        <h4>Resources</h4>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#careers">Careers</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#resources">Downloads</a></li>
+          <li><a href="#resources">Helplines</a></li>
+          <li><a href="#resources">Scholarships</a></li>
         </ul>
       </div>
       <div class="foot-col">
         <h4>Legal</h4>
         <ul>
-          <li><a href="#">Terms</a></li>
           <li><a href="#">Privacy</a></li>
-          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Terms</a></li>
           <li><a href="#">Accessibility</a></li>
         </ul>
       </div>
@@ -335,16 +254,18 @@
   </footer>
 
   <script>
-    // mobile nav (no external JS needed)
-    const toggle = document.querySelector('.nav-toggle');
-    const nav = document.querySelector('.nav');
-    toggle?.addEventListener('click', () => {
-      const open = toggle.getAttribute('aria-expanded') === 'true';
-      toggle.setAttribute('aria-expanded', String(!open));
-      nav.classList.toggle('open');
-    });
-    // dynamic year
-    document.getElementById('year').textContent = new Date().getFullYear();
+  
+const toggle = document.querySelector('.nav-toggle');
+const nav = document.querySelector('.nav');
+if (toggle) {
+  toggle.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    nav.classList.toggle('open');
+  });
+}
+document.getElementById('year').textContent = new Date().getFullYear();
+
   </script>
 </body>
 </html>
