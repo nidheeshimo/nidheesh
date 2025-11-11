@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NexLearn — Online Education for Everyone</title>
+  <meta name="description" content="Learn in-demand skills with flexible, instructor-led and self-paced e‑learning. Courses, tracks, certifications, and community — all in one place." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="assets/logo.svg" alt="NexLearn logo" class="logo" />
+        <span>NexLearn</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#courses">Courses</a>
+        <a href="#tracks">Learning Paths</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="cta-group">
+        <a class="btn btn-ghost" href="#login">Log in</a>
+        <a class="btn" href="#signup">Get Started</a>
+      </div>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Build skills that move your career.</h1>
+          <p>Interactive lessons, real projects, and mentor feedback — built for busy people. Learn anytime, from anywhere.</p>
+          <form class="hero-form" action="#" method="get" role="search" aria-label="Search courses">
+            <input type="search" name="q" placeholder="Search courses (e.g., Python, UI/UX, Cloud)" aria-label="Search courses">
+            <button class="btn" type="submit">Search</button>
+          </form>
+          <ul class="trust-list">
+            <li>10,000+ learners</li>
+            <li>200+ expert-led courses</li>
+            <li>Industry-recognized certificates</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <img src="assets/hero-illustration.png" alt="Students learning online with laptops and phones">
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="grid-section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Popular Courses</h2>
+          <p>Start with these favorites — bite-sized, practical, and project‑based.</p>
+        </header>
+        <div class="grid cards">
+          <!-- Course Card 1 -->
+          <article class="card">
+            <img src="assets/course-python.jpg" alt="Python course thumbnail">
+            <div class="card-body">
+              <h3>Python Fundamentals</h3>
+              <p>From zero to writing clean, testable Python scripts.</p>
+              <div class="meta">
+                <span>Beginner</span>
+                <span>14h</span>
+                <span>4.8 ★</span>
+              </div>
+              <a class="btn btn-small" href="#">View details</a>
+            </div>
+          </article>
+          <!-- Course Card 2 -->
+          <article class="card">
+            <img src="assets/course-uiux.jpg" alt="UI/UX course thumbnail">
+            <div class="card-body">
+              <h3>UI/UX Design Sprint</h3>
+              <p>Design-thinking, wireframes, and prototyping essentials.</p>
+              <div class="meta">
+                <span>Beginner–Intermediate</span>
+                <span>12h</span>
+                <span>4.7 ★</span>
+              </div>
+              <a class="btn btn-small" href="#">View details</a>
+            </div>
+          </article>
+          <!-- Course Card 3 -->
+          <article class="card">
+            <img src="assets/course-cloud.jpg" alt="Cloud course thumbnail">
+            <div class="card-body">
+              <h3>Cloud Practitioner</h3>
+              <p>Core cloud services, security, and cost best practices.</p>
+              <div class="meta">
+                <span>Beginner</span>
+                <span>10h</span>
+                <span>4.6 ★</span>
+              </div>
+              <a class="btn btn-small" href="#">View details</a>
+            </div>
+          </article>
+          <!-- Course Card 4 -->
+          <article class="card">
+            <img src="assets/course-datasci.jpg" alt="Data Science course thumbnail">
+            <div class="card-body">
+              <h3>Data Science Toolkit</h3>
+              <p>Pandas, visualization, and model basics with projects.</p>
+              <div class="meta">
+                <span>Intermediate</span>
+                <span>18h</span>
+                <span>4.8 ★</span>
+              </div>
+              <a class="btn btn-small" href="#">View details</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="tracks" class="tracks">
+      <div class="container">
+        <header class="section-head">
+          <h2>Learning Paths</h2>
+          <p>Guided roadmaps from novice to job‑ready.</p>
+        </header>
+        <div class="grid tracks-grid">
+          <div class="track-card">
+            <h3>Full‑Stack Developer</h3>
+            <ul>
+              <li>HTML/CSS → JavaScript → React</li>
+              <li>Node.js & APIs</li>
+              <li>Databases & Deployment</li>
+            </ul>
+            <a class="link" href="#">View syllabus →</a>
+          </div>
+          <div class="track-card">
+            <h3>Data Analyst</h3>
+            <ul>
+              <li>Excel/Sheets to SQL</li>
+              <li>Python & Visualization</li>
+              <li>Dashboards & Storytelling</li>
+            </ul>
+            <a class="link" href="#">View syllabus →</a>
+          </div>
+          <div class="track-card">
+            <h3>Cloud Engineer</h3>
+            <ul>
+              <li>Cloud fundamentals</li>
+              <li>Networking & Security</li>
+              <li>Automation & Monitoring</li>
+            </ul>
+            <a class="link" href="#">View syllabus →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <header class="section-head">
+          <h2>Why learn with us</h2>
+          <p>A platform built to help you actually finish.</p>
+        </header>
+        <div class="grid features-grid">
+          <div class="feature">
+            <h3>Hands‑on Projects</h3>
+            <p>Every course ships with practical tasks mapped to real scenarios.</p>
+          </div>
+          <div class="feature">
+            <h3>Mentor Feedback</h3>
+            <p>Get code/design reviews and nudge past blockers fast.</p>
+          </div>
+          <div class="feature">
+            <h3>Certificates</h3>
+            <p>Shareable certificates for LinkedIn and resumes.</p>
+          </div>
+          <div class="feature">
+            <h3>Flexible Pace</h3>
+            <p>Micro‑lessons designed for 20–30 minute sessions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase">
+      <div class="container showcase-inner">
+        <div class="showcase-media">
+          <img src="assets/app-screens.png" alt="App interface screens">
+        </div>
+        <div class="showcase-copy">
+          <h2>Learn on any device</h2>
+          <p>Pick up where you left off — phone, tablet, or laptop.</p>
+          <ul class="ticks">
+            <li>Offline mode for commutes</li>
+            <li>Reminders to keep streaks alive</li>
+            <li>Notes & bookmarks synced</li>
+          </ul>
+          <a class="btn" href="#signup">Create free account</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <header class="section-head">
+          <h2>Simple pricing</h2>
+          <p>Try free, upgrade when it helps.</p>
+        </header>
+        <div class="grid price-grid">
+          <article class="price-card">
+            <h3>Free</h3>
+            <p class="price">$0</p>
+            <ul>
+              <li>10 beginner courses</li>
+              <li>Community forum</li>
+              <li>Basic certificates</li>
+            </ul>
+            <a class="btn btn-ghost" href="#">Start free</a>
+          </article>
+          <article class="price-card featured">
+            <h3>Pro</h3>
+            <p class="price">$19<span>/mo</span></p>
+            <ul>
+              <li>All courses & paths</li>
+              <li>Projects & mentor feedback</li>
+              <li>Career services</li>
+            </ul>
+            <a class="btn" href="#">Go Pro</a>
+            <p class="note">Cancel anytime</p>
+          </article>
+          <article class="price-card">
+            <h3>Teams</h3>
+            <p class="price">Custom</p>
+            <ul>
+              <li>Admin & analytics</li>
+              <li>Bulk seats</li>
+              <li>Dedicated support</li>
+            </ul>
+            <a class="btn btn-ghost" href="#">Contact sales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <header class="section-head">
+          <h2>Learner stories</h2>
+          <p>People who finished, switched careers, and leveled up.</p>
+        </header>
+        <div class="grid testimonials-grid">
+          <figure class="quote">
+            <blockquote>“Short lessons and real projects kept me consistent.”</blockquote>
+            <figcaption>— Priya, Junior Developer</figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>“The mentor feedback shaved weeks off my learning.”</blockquote>
+            <figcaption>— Arjun, Data Analyst</figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>“Certificates helped me land interviews fast.”</blockquote>
+            <figcaption>— Meera, Cloud Engineer</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-inner">
+        <div>
+          <h2>About NexLearn</h2>
+          <p>We’re an education platform focused on outcomes. Lessons are built by working professionals and updated with industry input.</p>
+          <ul class="ticks">
+            <li>India-first schedules and cohorts</li>
+            <li>Scholarships for students</li>
+            <li>Partnered with hiring networks</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>Have questions?</h3>
+          <p>Email us: <a href="mailto:hello@nexlearn.example">hello@nexlearn.example</a></p>
+          <p>Or join the community forum to meet peers and mentors.</p>
+          <a class="btn btn-ghost" href="#community">Visit community</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="foot-col">
+        <a class="brand" href="#">
+          <img src="assets/logo.svg" alt="NexLearn logo" class="logo" />
+          <span>NexLearn</span>
+        </a>
+        <p class="foot-note">© <span id="year"></span> NexLearn. All rights reserved.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#tracks">Paths</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#">Certificates</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // mobile nav (no external JS needed)
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+    toggle?.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      nav.classList.toggle('open');
+    });
+    // dynamic year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
